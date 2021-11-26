@@ -1,0 +1,184 @@
+body {
+    background-color: #948caa;
+    background-image: url('https://i.gifer.com/2yqT.gif');
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+.capa {
+    width: 182vh;
+}
+
+.cover-box {
+    width: 379px;
+    height: 62vh;
+    position: absolute;
+    left: 42rem;
+    top: 5rem;
+    background-image: url('https://i.pinimg.com/originals/96/3d/e0/963de0b….gif');
+}
+
+.profile, .profile-cover{
+    width: auto ;
+    height: 200px;
+    border-radius: 50px 50px 50px 50px;
+    display: block;
+    padding: 1rem;
+}
+
+.cover-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    color: white;
+}
+
+.opacity{
+    width: 379px;
+    height: 62vh;
+    position: absolute;
+    left: 42rem;
+    top: 5rem;
+    background-color: rgb(175 108 173 / 50%);
+    z-index: 0;
+    border-radius: 5% 5% 5% 5%;
+}
+
+
+
+/* Inicio da primeira página */
+.primeiro-item {
+    width: 700px;
+    position:absolute;
+    top: 70rem;
+    left: 5rem;
+}
+
+.primeiro-projeto{
+    width: 700px;
+    border: solid black;
+    border-radius: 15px;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.primeira-descrição {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.primeiro-projeto:hover{
+    opacity: 1;
+    width: 800px;
+}
+
+.redireciona-home{
+    background-color: rgb(175 108 173 / 50%);
+    width: 7rem;
+    border-radius: 10px 10px 10px 10px;
+    border: solid rgb(139 90 137 / 100%);
+    position: absolute;
+    left: 18rem;
+}
+
+.redireciona-home:hover{
+    background-color: rgb(175 108 173 / 100%);
+    border: solid rgb(225 174 223 / 100%);
+}
+
+a {
+    color: inherit;
+}
+
+
+/* Inicio da segunda página */
+
+.segundo-item {
+    width: 700px;
+    position:absolute;
+    top: 90rem;
+    left: 60rem;
+}
+
+.segundo-projeto{
+    width: 700px;
+    border: solid black;
+    border-radius: 15px;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.segunda-descrição {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.segundo-projeto:hover{
+    opacity: 1;
+    width: 800px;
+}
+
+.redireciona-f1{
+    background-color: rgb(175 108 173 / 50%);
+    width: 7rem;
+    border-radius: 10px 10px 10px 10px;
+    border: solid rgb(139 90 137 / 100%);
+    position: absolute;
+    left: 18rem;
+}
+
+.redireciona-f1:hover{
+    background-color: rgb(175 108 173 / 100%);
+    border: solid rgb(225 174 223 / 100%);
+}
+
+/* Inicio da terceira página */
+
+.terceiro-item {
+    width: 700px;
+    position:absolute;
+    top: 110rem;
+    left: 6rem;
+    margin-bottom: 20rem;
+}
+
+.terceiro-projeto{
+    width: 700px;
+    border: solid black;
+    border-radius: 15px;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.terceira-descrição {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.terceiro-projeto:hover{
+    opacity: 1;
+    width: 800px;
+}
+
+.redireciona-pirata{
+    background-color: rgb(175 108 173 / 50%);
+    width: 7rem;
+    border-radius: 10px 10px 10px 10px;
+    border: solid rgb(139 90 137 / 100%);
+    position: absolute;
+    left: 18rem;
+}
+
+.redireciona-pirata:hover{
+    background-color: rgb(175 108 173 / 100%);
+    border: solid rgb(225 174 223 / 100%);
+}
+
+/* Rodapé */
+
+footer {
+    position:absolute;
+    top: 150rem;
+    left: 40rem;
+    background-color: rgb(175 108 173 / 100%);
+}
